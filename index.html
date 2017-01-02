@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Revec 2.0 Preview</title>
+	<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		  <!-- Compiled and minified CSS -->
+ 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+ 	 <!-- Compiled and minified JavaScript -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+        
+	<script>
+	 	
+	 	$(document).ready(function(){
+		    $('.slider').slider({full_width: true});
+					    // Pause slider
+			$('.slider').slider('pause');
+			// Start slider
+			$('.slider').slider('start');
+			// Next slide
+			$('.slider').slider('next');
+			// Previous slide
+			$('.slider').slider('prev');
+	 		$(".button-collapse").sideNav();
+	 	});
+ 		   
+ 	</script>
+</head>
+<body background="fondos.jpg">
+	<header>
+		  <div class="navbar-fixed">
+			    <nav>
+			      <div class="nav-wrapper #00796b teal darken-2">
+			        <a href="#" class="brand-logo">Revec</a>
+			         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				        <ul class="right hide-on-med-and-down">
+				          <li><a href="#">Servicios<i class="material-icons left">home</i></a></li>
+				          <li><a href="#">Ingresar<i class="material-icons left">input</i></a></li>
+				        </ul>
+				        <ul class="side-nav" id="mobile-demo">
+					        <li><a href="sass.html">Inicio</a></li>
+					        <li><a href="badges.html">Servicios</a></li>
+	      				</ul>
+			      </div>
+			    </nav>
+	 	 	</div>	
+	</header>
+ 	 	<div class="container">
+ 	 		<section>
+				<div class="row">
+					<div class="col s12">
+					  <div class="slider">
+					    <ul class="slides">
+					      <li>
+					        <img src="img/Banco-Central.jpg"> <!-- random image -->
+				       <div class="caption center-align">
+				          <h3>Sistema de Consultas Revec</h3>
+					          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					     </div>
+						   </li>
+							    <li>
+									<img src="img/BCCR.jpg"> <!-- random image -->
+										<div class="caption left-align">
+									    	<h3>Left Aligned Caption</h3>
+									        	 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+									    </div>
+								  </li>
+									      <li>
+							        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+							        <div class="caption right-align">
+							          <h3>Right Aligned Caption</h3>
+							          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+							        </div>
+							      </li>
+									    </ul>
+									  </div>		
+				 	 				</div>
+				 	 			</div>
+				 	 		</section>
+	 	 	<div class="row">
+	  	 	  <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+				    <a class="btn-floating btn-large red">
+				      <i class="large material-icons">mode_edit</i>
+				    </a>
+				    <ul>
+				      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+				      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+				      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+				      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+				    </ul>
+				</div>
+					<div class="col s12 center">
+					  <ul class="collapsible popout" data-collapsible="accordion">
+					    <li>
+					      <div class="collapsible-header"><i class="material-icons">library_add</i>Unidad Juridica</div>
+					      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+					    </li>
+					    <li>
+					      <div class="collapsible-header"><i class="material-icons">store</i>Establecimientos</div>
+					      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+					    </li>
+					    <li>
+					      <div class="collapsible-header"><i class="material-icons">place</i>Variables de Localizacion</div>
+					      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+					    </li>
+					  </ul>
+					</div>	 		
+
+	 	 	</div>
+			 		<div class="row">
+			 	 		<div class="col s12">
+			 	 			<div class="card-panel col s3 offset-s0 z-depth-2">
+					 	 		<div class="center">
+					 	 			<i class="material-icons" style="font-size:4em;">group_work</i>
+					 	 		</div>
+					 	 		<span>
+					 	 			<h5 class="card-title center">Divicion Economica</h5>
+					 	 		</span>
+					 	 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					 	 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					 	 	</div>	 	 				
+			 	 		
+						<div class="card-panel col s3 offset-s1 z-depth-2">
+							<div class="center">
+								<i class="material-icons" style="font-size:4em;">playlist_add</i>
+							</div>
+			 					<span>
+			 						<h5 class="card-title center">Numeros Indices</h5>
+								</span>
+			 	 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			 	 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			 	 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>	 	 					
+					 	 	 	<div class="card-panel col s3 offset-s1 z-depth-2">
+					 	 	 		<div class="center">
+					 	 				<i class="material-icons" style="font-size:4em;">business</i>
+					 	 			</div>
+					 		 			<span>
+					 		 				<h5 class="card-title center">BCCR</h5>
+					 	 				</span>
+							 	 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							 	 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							 	 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					 	 		</div>	 	 						
+							</div>
+			 	 		</div>
+
+	</div>
+</div>
+        <footer class="page-footer  #00796b teal darken-2">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Revec 2.0</h5>
+                <p class="grey-text text-lighten-4">Sistema de consultas Revec - Realizado por Jafet Barrera - UNA Sede Regional Chorotega</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Acerca de</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Contacto</a></li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Copyright Text
+
+            </div>
+          </div>
+        </footer>
+
+</body>
+</html>
