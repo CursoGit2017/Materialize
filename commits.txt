@@ -1,0 +1,11 @@
+commit 5316bf1f11ee909b70f5856e80f7086e07be325b
+Author: Jafet <jafetbarrera@gmail.com>
+Date:   Mon Jan 2 09:19:43 2017 -0600
+
+    Agregamos NUEVO
+
+commit 38eb438a08fc1e8b41329ece6d7fe0ad9285f54d
+Author: Jafet <jafetbarrera@gmail.com>
+Date:   Mon Jan 2 09:13:27 2017 -0600
+
+    Version 1
